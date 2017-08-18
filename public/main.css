@@ -4,8 +4,18 @@
   flex-flow: wrap column;
 }
 
+.indexwrap {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 a {
   text-decoration: none;
+}
+
+#staff {
+  text-align: center;
 }
 
 .upperwrapper {
@@ -28,7 +38,7 @@ a {
   justify-content: center;
 }
 
-.category{
+.category {
   display: flex;
   margin: 0 30px;
 }
@@ -61,6 +71,7 @@ h2 {
   margin: 30px;
   justify-content: flex-start;
 }
+
 ul {
   padding: 0;
 }
